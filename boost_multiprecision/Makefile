@@ -1,9 +1,9 @@
 CPPFLAGS=
 CPP=g++
 LD=g++
-LDFLAGS=
-OBJS=main.o jacobian_theta_functions.o theta_functions.o
-BIN=jacobi_theta
+LDFLAGS=-lmpfr -lmpc
+OBJS=main.o
+BIN=boost_multiprecision
 
 ALL: $(BIN)
 

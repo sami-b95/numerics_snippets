@@ -1,0 +1,6 @@
+boost_multiprecision/boost_multiprecision
+boost_multiprecision/*.swp
+boost_multiprecision/*.o
+jacobi_theta/jacobi_theta
+jacobi_theta/*.swp
+jacobi_theta/*.o
